@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabsSuite">
+
+    <test name="SwagLabs Tests">
+        <classes>
+             <class name="swaglabproject_testing.login_page"/>
+            <class name="swaglabproject_testing.home_page"/>
+            <class name="swaglabproject_testing.checkout_page"/>
+        </classes>
+    </test>
+
+</suite>
